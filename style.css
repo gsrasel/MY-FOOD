@@ -1,0 +1,29 @@
+.top-section {
+  height: 450px;
+  /* background-color: rgb(204, 182, 182); */
+}
+.top-banner {
+  background-image: url("images/shapes/7.png");
+}
+
+.feature-area {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+span {
+  color: rgb(224, 224, 22);
+  font-size: 35px;
+}
+.link-btn {
+  background-image: linear-gradient(orange black);
+  text-decoration: none;
+  background-color: orangered;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 16px;
+}
+.middle-tex {
+  padding: 100px 0;
+}
