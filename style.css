@@ -6,11 +6,15 @@ h1 h2 {
 p {
   font-family: "Raleway", sans-serif;
 }
+body {
+  background-color: #ee82e20f;
+}
 .top-section {
   height: 477px;
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 1;
 }
 .top-banner {
   background-image: url("images/shapes/7.png");
@@ -50,7 +54,7 @@ span {
 .about-food {
   background-image: url(images/shapes/Frame\ 59.jpg);
   background-repeat: no-repeat;
-  opacity: 0.8;
+  opacity: 1;
   width: 100%;
   background-size: cover;
   padding-bottom: 87px;
@@ -66,8 +70,7 @@ span {
   margin: 0 auto;
 }
 .fd-text {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: arial;
   padding: 0px 75px;
 }
 .iteam-box {
@@ -89,15 +92,64 @@ span {
   padding-left: 12px;
   margin: 10px;
   background-color: #8a5848;
+  padding-top: 5px;
 }
 footer {
   width: 100%;
   display: block;
   overflow: hidden;
-  background-color: rgb(17, 16, 16);
+  background-color: rgb(234, 190, 190);
 }
 footer h3 {
   text-align: center;
-  color: white;
+  color: #2b2929;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.menu {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.nav-bar {
+  background-color: rgb(255, 240, 253);
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+ul {
+  margin-left: 49px;
+}
+ul li {
+  display: inline;
+  list-style: none;
+  padding: 7px;
+  line-height: 46px;
+  float: left;
+}
+ul li a {
+  color: rgb(34, 30, 30);
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: inline-block;
+}
+ul li a:hover {
+  color: rgb(216, 198, 32);
+}
+.search-btn {
+  display: inline;
+  float: right;
+  line-height: 60px;
+}
+.logo {
+  width: 65px;
+  float: left;
+  margin-left: 10px;
+}
+.input-btn {
+  border-radius: 14px;
+  padding: 6px;
+}
+.style-h1 {
+  font-family: initial;
 }
