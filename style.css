@@ -1,4 +1,10 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap");
+h1 h2 {
+  font-family: "STIX Two Math", serif;
+}
+p {
+  font-family: "Raleway", sans-serif;
 }
 .top-section {
   height: 477px;
@@ -48,4 +54,33 @@ span {
   width: 100%;
   background-size: cover;
   padding-bottom: 87px;
+}
+.orange {
+  color: orange;
+  padding-top: 40px;
+  font-size: 32px;
+  text-align: center;
+}
+.food-lover-said {
+  width: 80%;
+  margin: 0 auto;
+}
+.fd-text {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0px 75px;
+}
+.iteam-box {
+  width: 80%;
+  margin: 37px 142px;
+}
+
+.food-box {
+  float: left;
+  margin: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(25, 25, 172, 0.1);
+  width: 300px;
+}
+.food-img {
+  width: 300px;
 }
