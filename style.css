@@ -1,6 +1,10 @@
+body {
+}
 .top-section {
-  height: 450px;
-  /* background-color: rgb(204, 182, 182); */
+  height: 477px;
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .top-banner {
   background-image: url("images/shapes/7.png");
@@ -25,5 +29,23 @@ span {
   border-radius: 16px;
 }
 .middle-tex {
-  padding: 100px 0;
+  padding: 100px 30px;
+}
+.about-img {
+  width: 80%;
+}
+.about-food {
+  height: 450px;
+}
+.feature-img {
+  width: 505px;
+  padding: 20px;
+}
+.about-food {
+  background-image: url(images/shapes/Frame\ 59.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 87px;
 }
